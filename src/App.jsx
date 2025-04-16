@@ -1,12 +1,26 @@
-import {Question1, Question2} from './components.jsx';
+import React from 'react';
+import {
+  Question1,
+  Question2,
+  ColourMixTests,
+  LargestProductTests,
+  DayOfWeekTests,
+  PayRaiseTests,
+  LeapYearTests
+} from './components.jsx';
 
 function App() {
   return (
-    <>
-        <Question1 />   
-        <Question2 /> 
-    </>
-  )
+    <div>
+      <Question1 />
+      <Question2 />
+      <ColourMixTests />
+      <LargestProductTests />
+      <DayOfWeekTests />
+      <PayRaiseTests />
+      <LeapYearTests />
+    </div>
+  );
 }
 
-export default App
+export default App;
